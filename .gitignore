@@ -50,6 +50,8 @@ Thumbs.db
 # Data
 data/
 *.pdf
-*.txt
+# Don't ignore requirements.txt - it's needed for deployment!
+# *.txt
+sample_data.txt
 *.csv
 

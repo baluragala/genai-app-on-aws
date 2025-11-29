@@ -1,0 +1,38 @@
+# Core Dependencies - Python 3.12 Compatible (WORKING VERSIONS)
+langchain==1.1.0
+langchain-openai==1.1.0
+langchain-community==0.4.1
+langchain-core==1.1.0
+langchain-text-splitters==1.0.0
+langchain-classic==1.0.0
+openai==1.109.1
+
+# Vector Store
+chromadb==0.5.5
+
+# Frontend
+streamlit==1.39.0
+
+# Document Processing
+pypdf==5.1.0
+python-docx==1.1.2
+# unstructured - optional, only needed for advanced document formats
+# For Python 3.12+, use version 0.11.8 or latest
+unstructured==0.11.8
+
+# Utilities
+python-dotenv==1.0.1
+tiktoken==0.8.0
+
+# Logging
+colorlog==6.8.2
+
+# Additional dependencies - Fixed for Python 3.12
+pydantic==2.9.2
+pydantic-settings==2.12.0
+orjson==3.10.11
+
+# LangChain dependencies (auto-installed but pinned for consistency)
+langsmith==0.4.49
+langgraph==1.0.4
+

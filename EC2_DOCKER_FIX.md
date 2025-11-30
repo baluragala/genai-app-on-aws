@@ -9,7 +9,7 @@
 
 ## ✅ Solution 1: Remove Version Warning (FIXED)
 
-The `version: '3.8'` line has been removed from `docker-compose.yml`. 
+The `version: '3.8'` line has been removed from `docker-compose.yml`.
 
 After you pull the latest code, this warning will be gone.
 
@@ -155,6 +155,7 @@ docker-compose ps
 ### Issue: "permission denied while trying to connect to Docker daemon"
 
 **Solution:**
+
 ```bash
 # Verify you're in docker group
 groups
@@ -169,6 +170,7 @@ exit
 ### Issue: "Cannot connect to the Docker daemon"
 
 **Solution:**
+
 ```bash
 # Check if Docker daemon is running
 sudo systemctl status docker
@@ -183,6 +185,7 @@ sudo systemctl enable docker
 ### Issue: "docker: command not found"
 
 **Solution:**
+
 ```bash
 # Install Docker
 sudo yum install docker -y  # Amazon Linux
@@ -198,13 +201,16 @@ sudo systemctl enable docker
 ## 📝 Common Mistakes
 
 ❌ **Not logging out and back in** after adding user to docker group
-   - Group membership doesn't take effect until you logout/login
+
+- Group membership doesn't take effect until you logout/login
 
 ❌ **Docker service not started** after installation
-   - Always run `sudo systemctl start docker`
+
+- Always run `sudo systemctl start docker`
 
 ❌ **Using sudo with docker commands** after adding to group
-   - If configured correctly, you shouldn't need sudo
+
+- If configured correctly, you shouldn't need sudo
 
 ---
 
@@ -264,4 +270,3 @@ If issues persist:
 ---
 
 **Remember: The most common issue is forgetting to logout and login again after adding user to docker group!** 🔑
-

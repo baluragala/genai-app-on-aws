@@ -268,12 +268,12 @@ docker-compose logs -f
 
 ## 🎯 Why This Works
 
-| Issue | Why Previous Failed | Why This Works |
-|-------|-------------------|----------------|
-| **Repository** | CentOS repo doesn't support AL2023 | Uses Amazon Linux native repos |
-| **Docker packages** | docker-ce not available | Uses `docker` package from Amazon |
-| **Buildx** | Old version in repos | Use legacy build mode |
-| **Compose** | Need to install separately | Install from GitHub releases |
+| Issue               | Why Previous Failed                | Why This Works                    |
+| ------------------- | ---------------------------------- | --------------------------------- |
+| **Repository**      | CentOS repo doesn't support AL2023 | Uses Amazon Linux native repos    |
+| **Docker packages** | docker-ce not available            | Uses `docker` package from Amazon |
+| **Buildx**          | Old version in repos               | Use legacy build mode             |
+| **Compose**         | Need to install separately         | Install from GitHub releases      |
 
 ---
 
@@ -356,24 +356,28 @@ Access your app: **http://YOUR_EC2_PUBLIC_IP:8501**
 ## 🚀 Quick Reference
 
 **Install Docker:**
+
 ```bash
 sudo yum install -y docker
 sudo systemctl start docker && sudo systemctl enable docker
 ```
 
 **Install Docker Compose:**
+
 ```bash
 sudo curl -L "https://github.com/docker/compose/releases/download/v2.23.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
 **Add user to docker group:**
+
 ```bash
 sudo usermod -aG docker ec2-user
 exit  # MUST logout and login
 ```
 
 **Run application:**
+
 ```bash
 export DOCKER_BUILDKIT=0 COMPOSE_DOCKER_CLI_BUILD=0
 docker-compose up -d --build
@@ -382,4 +386,3 @@ docker-compose up -d --build
 ---
 
 **TL;DR: Use `sudo yum install docker` NOT the CentOS repo for Amazon Linux 2023!** 🎯
-

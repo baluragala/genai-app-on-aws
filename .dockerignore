@@ -28,7 +28,7 @@ logs/
 
 # Documentation
 README.md
-sepc.md
+docs/
 
 # Docker
 docker-compose.yml

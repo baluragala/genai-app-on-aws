@@ -162,12 +162,12 @@ TEMPERATURE=0.7
 
 ## 📚 Full Documentation
 
-See `DEPLOYMENT_AWS_EC2.md` for complete step-by-step guide.
+See [DEPLOYMENT_AWS_EC2.md](./DEPLOYMENT_AWS_EC2.md) for complete step-by-step guide.
 
 ---
 
 **Quick Access:**
-- Documentation: `cat DEPLOYMENT_AWS_EC2.md`
+- Documentation: `cat docs/deployment/DEPLOYMENT_AWS_EC2.md`
 - Automated script: `./deploy-ec2.sh`
 - Application URL: `http://PUBLIC_IP:8501`
 

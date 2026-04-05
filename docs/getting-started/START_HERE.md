@@ -107,10 +107,10 @@ cat .env | grep OPENAI_API_KEY
 
 ## 📚 More Information
 
-- **Full Documentation**: See `README.md`
-- **Quick Start**: See `QUICKSTART.md`
-- **Python 3.12 Notes**: See `PYTHON_312_FIX.md`
-- **Architecture**: See `ARCHITECTURE.md`
+- **Full Documentation**: See [README.md](../../README.md)
+- **Quick Start**: See [QUICKSTART.md](./QUICKSTART.md)
+- **Python 3.12 Notes**: See [PYTHON_312_FIX.md](../troubleshooting/PYTHON_312_FIX.md)
+- **Architecture**: See [ARCHITECTURE.md](../architecture/ARCHITECTURE.md)
 
 ## 🎉 You're All Set!
 

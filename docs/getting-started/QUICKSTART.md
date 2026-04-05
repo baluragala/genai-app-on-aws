@@ -118,7 +118,7 @@ pip install --upgrade -r requirements.txt
 
 ## 📚 Next Steps
 
-- Read the full [README.md](README.md) for detailed documentation
+- Read the full [README.md](../../README.md) for detailed documentation
 - Explore configuration options in `.env.example`
 - Check out the source code in `src/` directory
 

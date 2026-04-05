@@ -244,7 +244,7 @@ Dockerfile
 src/
 .env.example
 README.md
-DEPLOYMENT_AWS_EC2.md
+docs/
 ...
 ```
 
@@ -773,8 +773,8 @@ Your RAG Application is now deployed on AWS EC2 and accessible via:
 - [AWS EC2 Documentation](https://docs.aws.amazon.com/ec2/)
 - [Docker Documentation](https://docs.docker.com/)
 - [Streamlit Deployment](https://docs.streamlit.io/streamlit-community-cloud/get-started/deploy-an-app)
-- [Project README](README.md)
-- [Architecture Documentation](ARCHITECTURE.md)
+- [Project README](../../README.md)
+- [Architecture Documentation](../architecture/ARCHITECTURE.md)
 
 ---
 
@@ -792,9 +792,9 @@ If you encounter issues:
 
 ### Additional Troubleshooting Resources
 
-- **Docker Issues**: See `EC2_DOCKER_FIX.md`
-- **Buildx Issues**: See `BUILDX_FIX.md`
-- **Amazon Linux 2023 Specific**: See `AMAZON_LINUX_2023_DOCKER.md`
+- **Docker Issues**: See [EC2_DOCKER_FIX.md](../troubleshooting/EC2_DOCKER_FIX.md)
+- **Buildx Issues**: See [BUILDX_FIX.md](../troubleshooting/BUILDX_FIX.md)
+- **Amazon Linux 2023 Specific**: See [AMAZON_LINUX_2023_DOCKER.md](./AMAZON_LINUX_2023_DOCKER.md)
 
 ---
 

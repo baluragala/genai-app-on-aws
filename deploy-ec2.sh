@@ -232,7 +232,7 @@ if docker-compose up -d --build; then
     echo "   Check status: docker-compose ps"
     echo ""
     echo "📚 Documentation:"
-    echo "   ~/genai-app-on-aws/DEPLOYMENT_AWS_EC2.md"
+    echo "   ~/genai-app-on-aws/docs/deployment/DEPLOYMENT_AWS_EC2.md"
     echo ""
     echo "=========================================="
 else
@@ -245,7 +245,7 @@ else
     echo "🔧 Common issues:"
     echo "   - Check .env file: cat .env | grep OPENAI_API_KEY"
     echo "   - Check Docker: docker ps"
-    echo "   - See troubleshooting: cat DEPLOYMENT_AWS_EC2.md"
+    echo "   - See troubleshooting: cat docs/deployment/DEPLOYMENT_AWS_EC2.md"
     exit 1
 fi
 

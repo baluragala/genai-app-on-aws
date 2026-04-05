@@ -6,7 +6,7 @@ A production-ready **Retrieval-Augmented Generation (RAG)** application built ac
 
 ## ✅ Specifications Met
 
-All requirements from `sepc.md` have been fully implemented:
+All requirements from [spec.md](../spec.md) have been fully implemented:
 
 ### 1. ✅ RAG Application with LangChain
 - Built using **LangChain framework**
@@ -59,11 +59,15 @@ genai-app-on-aws/
 ├── run.sh                  # Run script (Linux/Mac)
 ├── docker-run.sh           # Docker run script
 ├── Makefile                # Make commands
-├── README.md               # Main documentation
-├── QUICKSTART.md           # Quick start guide
-├── ARCHITECTURE.md         # Architecture documentation
+├── README.md               # Main documentation (repository root)
+├── docs/                   # Documentation index: docs/README.md
+│   ├── getting-started/    # QUICKSTART, START_HERE
+│   ├── architecture/       # ARCHITECTURE, PROJECT_SUMMARY
+│   ├── deployment/         # AWS EC2 guides, NOTES
+│   ├── troubleshooting/    # Docker/Python fix notes
+│   └── spec.md             # Original specification
 ├── sample_data.txt         # Sample document for testing
-└── sepc.md                 # Original specification
+└── ...
 ```
 
 ## 🚀 Quick Start Commands
@@ -232,10 +236,11 @@ LOG_LEVEL=INFO              # DEBUG, INFO, WARNING, ERROR
 
 | Document | Description |
 |----------|-------------|
-| `README.md` | Complete user guide and reference |
-| `QUICKSTART.md` | Get started in under 5 minutes |
-| `ARCHITECTURE.md` | Technical architecture and design |
-| `PROJECT_SUMMARY.md` | This file - project overview |
+| [README.md](../../README.md) | Complete user guide and reference |
+| [docs/README.md](../README.md) | Documentation index |
+| [QUICKSTART.md](../getting-started/QUICKSTART.md) | Get started in under 5 minutes |
+| [ARCHITECTURE.md](./ARCHITECTURE.md) | Technical architecture and design |
+| [PROJECT_SUMMARY.md](./PROJECT_SUMMARY.md) | This file — project overview |
 
 ## ✨ Highlights
 
@@ -285,9 +290,9 @@ LOG_LEVEL=INFO              # DEBUG, INFO, WARNING, ERROR
 ## 📧 Support
 
 For detailed information:
-- See `README.md` for complete documentation
-- See `QUICKSTART.md` for quick start guide
-- See `ARCHITECTURE.md` for technical details
+- See [README.md](../../README.md) for complete documentation
+- See [QUICKSTART.md](../getting-started/QUICKSTART.md) for quick start guide
+- See [ARCHITECTURE.md](./ARCHITECTURE.md) for technical details
 
 ## 🎉 Project Status
 

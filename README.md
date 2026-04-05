@@ -111,6 +111,7 @@ genai-app-on-aws/
 │   ├── config.py            # Configuration management
 │   ├── logger.py            # Logging setup
 │   └── rag_engine.py        # RAG core logic
+├── docs/                    # All Markdown documentation (see docs/README.md)
 ├── logs/                    # Application logs
 ├── data/                    # Data directory (optional)
 ├── app.py                   # Streamlit application
@@ -122,6 +123,8 @@ genai-app-on-aws/
 ├── .dockerignore           # Docker ignore rules
 └── README.md               # This file
 ```
+
+For guides, deployment, and troubleshooting, see **[docs/README.md](docs/README.md)**.
 
 ## 🔧 Configuration
 
